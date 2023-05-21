@@ -1,0 +1,60 @@
+.image {
+    height: 200px;
+    width: 150px;
+}
+
+
+.conteiner{
+    max-width: 800px;
+    margin-left: 200px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.conteiner__books {
+    display: flex;
+    justify-content: space-between;
+    border-style: outset;
+    border-color: black ;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.conteiner__text {
+    flex-basis: 65%;
+}
+
+.conteiner__price{
+    display: flex;
+    align-items: end;
+}
+
+.conteiner__total_price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteiner__button {
+    display: flex;
+    justify-content: center;
+}
+
+#button {
+    height: 40px;
+    font-size: 15px;
+    border: none;
+    background-color: rgb(210, 152, 248);
+    color: rgb(0, 0, 0);
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+.sale__result{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.sale__title,
+.sale__total-price {
+    margin-top: 5px;
+}

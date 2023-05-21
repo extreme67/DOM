@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+    <link rel="stylesheet" href="assets/style/dom.css" />
+  </head>
+  <body>
+    <div class="conteiner">
+      <h1 class="name">Корзина</h1>
+
+      <div class="conteiner__books">
+        <div class="conteiner__image">
+          <img class="image" src="assets/style/images/book1.jpg" alt="book1" />
+        </div>
+        <div class="conteiner__text">
+          <h2 class="title">Разговоры с друзьями</h2>
+          <p class="about">
+            Умная, тонкая, свежая история взросления, любви и дружбы в наши дни
+          </p>
+          <p class="author">Автор: Салли Руни</p>
+          <p class="quantity">Количество : 1 шт.</p>
+        </div>
+        <div class="conteiner__price">
+          <p> <span class="sum" id="firstPrice">593</span> руб. </p>
+        </div>
+      </div>
+
+      <div class="conteiner__books">
+        <div class="conteiner__image">
+          <img class="image" src="assets/style/images/book2.jpg" alt="book2" />
+        </div>
+        <div class="conteiner__text">
+          <h2 class="title">Нормальные люди</h2>
+          <p class="about">Литературный феномен десятилетия</p>
+          <p class="author">Автор: Салли Руни</p>
+          <p class="quantity">Количество : 1 шт.</p>
+        </div>
+        <div class="conteiner__price">
+          <p><span class="sum" id="secondPrice">617</span> руб. </p>
+        </div>
+      </div>
+
+      <div class="conteiner__books">
+        <div class="conteiner__image">
+          <img class="image" src="assets/style/images/book3.jpg" alt="book3" />
+        </div>
+        <div class="conteiner__text">
+          <h2 class="title">Прекрасный мир, где же ты</h2>
+          <p class="about">
+          Умная, тонкая, свежая история о взрослении в мире, который рушится
+          </p>
+          <p class="author">Автор: Салли Руни</p>
+          <p class="quantity">Количество : 1 шт.</p>
+        </div>
+
+        <div class="conteiner__price">
+          <p><span class="sum" id="thirdPrice">630</span> руб. </p>
+        </div>
+      </div>
+
+      <div class="conteiner__books">
+        <div class="conteiner__image">
+          <img class="image" src="assets/style/images/book4.jpeg" alt="book4" />
+        </div>
+        <div class="conteiner__text">
+          <h2 class="title">Выгорание</h2>
+          <p class="about">Новый подход к избавлению от стресса</p>
+          <p class="author">Автор: Салли Руни</p>
+          <p class="quantity">Количество : 1 шт.</p>
+        </div>
+
+      <div class="conteiner__price">
+          <p><span class="sum" id="fourthPrice"> 672 </span> руб.</p>
+        </div>
+        </div>
+        <div class="conteiner__total_price">
+        <button id="button" onclick="TotalSale()" value="sale20">
+        Использовать купон на скидку 20%
+        </button>
+        <div class="sale__result">
+        <h3 class="sale__title">Итого</h3>
+        <p class="sale__total-price">
+        <span class="sale__total-price" id="totalPrice"> </span> руб.
+        </p> 
+        </div>
+      </div>
+
+    <script src="assets/style/dom.js"></script>
+
+  </body>
+  </html>
+
