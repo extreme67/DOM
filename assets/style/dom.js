@@ -11,6 +11,6 @@ let sum = totalPrice.textContent;
 
 let discountPrice = ((Number(sum))*.8);
 
-const TotalSale = () => {
+const countSale = () => {
     totalPrice.textContent = discountPrice.toFixed();
 };
